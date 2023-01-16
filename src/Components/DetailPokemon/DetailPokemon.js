@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Styles/DetailPokemon.css'
+import img3 from "../../Assets/Images/img3.png";
 
 
 export default class DetailPokemon extends React.Component {
@@ -47,7 +48,7 @@ export default class DetailPokemon extends React.Component {
                             <p className="poke_id"><span>Pokemon #</span>{this.state.pokemon?.detail?.id}</p>
                             <p className="poke_nom">
                                 <img
-                                    src="https://github.com/javierhernandezmartinez/pokedex/blob/master/src/assets/images/img3.png?raw=true"
+                                    src={img3}
                                     className="pokebola_img_d"/>{this.state.pokemon?.name}</p>
                             <div className="poke_type">
                                 <div className="row">

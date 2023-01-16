@@ -26,7 +26,7 @@ export default class PokeList extends React.Component {
         this.filterMenu()
     }
 
-    getListPokemon = (limit = 200, offset = 0) => {
+    getListPokemon = (limit = 500, offset = 0) => {
         axios.get(`${this.state.url}/pokemon?limit=${limit}&offset=${offset}`).then(
             data => {
                 let detail = this.getDetailPokemon(data.data.results)

@@ -1,0 +1,138 @@
+.panel_rigt {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid green;
+    background: green;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.panel_rigt::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+.panel_rigt::-webkit-scrollbar-track {
+    background: limegreen;        /* color of the tracking area */
+}
+
+.panel_rigt::-webkit-scrollbar-thumb {
+    background-color: forestgreen;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid forestgreen;  /* creates padding around scroll thumb */
+}
+.quepokeom {
+    width: 90%;
+    height: 150px;
+    background-image:  url("../../Assets/Images/quepokemon.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ff1600;
+    background-blend-mode: hard-light;
+    background-position: center;
+    margin: 3% auto auto;
+    border-radius: 8px;
+}
+.quepokeom div {
+    width: 50%;
+    height: inherit;
+}
+.quepokeom div img {
+    width: auto;
+    height: inherit;
+    max-width: 100%;
+    filter: grayscale(1) contrast(4) brightness(0);
+}
+.p_p_img{
+    width: 90%;
+    background: palegreen;
+    padding: 2%;
+    border-radius: 8px;
+    margin: 3% auto auto;
+}
+.img_poke_selected{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    object-fit: scale-down;
+    display: block;
+}
+.poke_details .poke_id {
+    width: 90%;
+    font-size: 10pt;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+.poke_details .poke_nom {
+    width: 90%;
+    height: 50px;
+    font-size: 18pt;
+    font-weight: 600;
+    color: #ff0;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    background: darkgreen;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poke_details .pokebola_img_d {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.poke_details .poke_type {
+    width: 90%;
+    font-size: 12pt;
+    font-weight: 600;
+    margin: auto;
+    color: #ff0;
+}
+.poke_descrip{
+    padding: 5%;
+}
+.poke_descrip p {
+    width: 100%;
+    height: 100px;
+    background: palegreen;
+    margin: 0;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 5px;
+    color: green;
+}
+.poke_descrip p::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+.poke_descrip p::-webkit-scrollbar-track {
+    background: limegreen;        /* color of the tracking area */
+}
+
+.poke_descrip p::-webkit-scrollbar-thumb {
+    background-color: forestgreen;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid forestgreen;  /* creates padding around scroll thumb */
+}
+
+.button_open_modal {
+    background: darkgreen;
+    color: #fff;
+    width: 90%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: auto auto 10px;
+    display: block;
+}
+.button_open_modal:hover {
+    color: #ff0;
+    border: 1px solid lightgreen;
+    text-shadow: 2px 2px 2px blue;
+    cursor: url("../../Assets/Images/cursor_mano.png"),auto;
+}
+

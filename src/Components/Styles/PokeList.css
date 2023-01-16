@@ -1,0 +1,101 @@
+.panel_left{
+    width: 100%;
+    height: 100%;
+    min-height: 80%;
+    border-radius: 8px;
+    border: 1px solid green;
+    overflow: auto;
+    padding: 4%;
+    overflow-x: hidden;
+}
+.panel_left::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+.panel_left::-webkit-scrollbar-track {
+    background: limegreen;        /* color of the tracking area */
+}
+
+.panel_left::-webkit-scrollbar-thumb {
+    background-color: forestgreen;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid forestgreen;  /* creates padding around scroll thumb */
+}
+
+.card_target {
+    background: palegreen;
+    width: 98%;
+    height: 100%;
+    max-height: 100px;
+    border-radius: 8px;
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 1%;
+    cursor: url("../../Assets/Images/cursor_mano.png"),auto;
+    box-shadow: 2px 2px 3px grey;
+}
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+}
+.card_target:hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+    background: darkgreen;
+}
+.card_target:hover .name_poke_l {
+    color: #ff0;
+    text-shadow: 0px 0px 6px blue;
+}
+.card_target:hover .id_poke_l {
+    color: #fff;
+    text-shadow: 0px 0px 2px yellow;
+}
+.card_target:hover .type_poke_l {
+    color: #fff;
+}
+.img_car_target {
+    display: flex;
+}
+.img_car_target img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.card_target .name_poke_l {
+    font-size: 10pt;
+    font-weight: 700;
+    color: green;
+}
+.card_target .id_poke_l {
+    font-size: 8pt;
+    font-weight: 600;
+    color: green;
+}
+.card_target .type_poke_l {
+    font-size: 10pt;
+    font-weight: 600;
+    color: green;
+}
+.panel_target{
+    justify-content: center;
+    height: 66vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.panel_target::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+
+.panel_target::-webkit-scrollbar-track {
+    background: limegreen;        /* color of the tracking area */
+}
+
+.panel_target::-webkit-scrollbar-thumb {
+    background-color: forestgreen;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid forestgreen;  /* creates padding around scroll thumb */
+}

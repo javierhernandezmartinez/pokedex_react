@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Aqui puede visualizar 
+Open [https://javierhernandezmartinez.github.io/pokedex_react/](https://javierhernandezmartinez.github.io/pokedex_react/)
 ## Available Scripts
 
 In the project directory, you can run:
